@@ -19,7 +19,24 @@
       font-size: 1.6rem;
       color: black;
       margin: 0 20px;
+
     }
+
+    @media @mobile {
+      width: 100%;
+      justify-content: space-around;
+    }
+  }
+
+  h1 {
+    @media @mobile {
+      margin-bottom: 1.4rem;
+    }
+  }
+
+  @media @mobile {
+    padding: 25px 0 10px;
+    flex-direction: column;
   }
 }
 
