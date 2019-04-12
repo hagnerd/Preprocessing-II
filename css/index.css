@@ -300,14 +300,13 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto 30px;
   }
 }
 @media (max-width: 500px) {
   .home .content-pick {
-    width: 80%;
     flex-direction: column;
-    margin: 0 auto;
   }
 }
 .home .btn {
